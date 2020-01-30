@@ -32,6 +32,5 @@ urlpatterns = [
     path('student/edit', student_module.edit),
     path('subject/views', subject_module.views),
     path('subject/add', subject_module.add),
-    path('subject/edit', subject_module.edit),
-    
+    path('subject/edit', subject_module.edit),    
 ]
